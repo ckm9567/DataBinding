@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
 
         binding.btnSetData.setOnClickListener(){
+            student.programme = "RSF"
             binding.myStudent = student
             //binding.tvName.text = "Ali"
             //binding.tvProgramme.text = "RSF"
